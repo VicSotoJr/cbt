@@ -1,5 +1,8 @@
+
 body{
 	height: 100vh;
+	font-family: 'Bebas Neue';
+	font-size: xx-large;
 }
 header{
     background-color: black;
@@ -13,7 +16,6 @@ header{
     width: 100%;
 	height: 50%;
 	margin: auto;
-	text-align: center;
 }
 .main{
 	height: 100%;
@@ -26,4 +28,47 @@ ul{
 }
 ul:hover{
 	color: red;
+}
+.stats{
+	text-align: center;
+	margin: auto;
+}
+.nameTitleColor{
+	font-size: 75px;
+	color: white;
+	text-shadow: 4px 4px black;
+}
+.statsTitleColor{
+	font-size: 30px;
+	color: white;
+	text-shadow: 2px 2px black;
+
+}
+.teamTitleColor{
+	font-size: 50px;
+	color: Red;
+	text-shadow: 2px 2px black;
+
+}
+.numberTitleColor{
+	font-size: 50px;
+	color: Black;
+}
+
+.nameTitle{
+	font-size: 75px;
+	color: red;
+	text-shadow: 4px 4px black;
+}
+.statsTitle{
+	font-size: 30px;
+	color: red;
+	text-shadow: 2px 2px black;
+
+}
+.teamTitleColor{
+	font-size: 50px;
+	color: Red;
+	text-shadow: 2px 2px black;
+
 }
